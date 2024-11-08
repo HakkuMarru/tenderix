@@ -3,7 +3,7 @@ import logo from "../../assets/logo/logo.png";
 
 export default function Header() {
   return (
-    <nav className="hidden glass-box-nav bg-black lg:h-[120px] xl:h-[90px] p-[20px] lg:px-[20px] px-[50px] lg:grid lg:grid-cols-3">
+    <nav className="hidden glass-box-nav bg-black lg:h-[120px] xl:h-[90px] p-[20px] lg:px-[40px] px-[50px] lg:grid lg:grid-cols-3">
       <div className="flex gap-2 justify-start items-center">
         <img src={logo} alt="Logo" className="w-[50px] h-[50px]" />
         <div>

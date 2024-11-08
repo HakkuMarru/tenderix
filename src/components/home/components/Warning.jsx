@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 export default function Links() {
   return (
-    <div className="flex flex-col items-center justify-center mx-14 lg:mx-0 lg:py-[100px] lg:px-[200px] gap-12">
+    <div className="flex flex-col items-center justify-center mx-14 lg:px-[100px] lg:mx-0 lg:pb-40 xl:py-[100px] xl:px-[200px] gap-12">
       <h2 className="font-inter text-white font-semibold text-3xl align-center">
         Upozornění
       </h2>

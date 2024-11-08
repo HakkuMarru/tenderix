@@ -6,7 +6,7 @@ import janMusil from "../../../assets/photos/jan-musil.png";
 
 export default function About() {
   return (
-    <div className="flex flex-col items-center justify-center lg:mx-[100px] xl:py-[100px] xl:px-[200px] mx-14 lg:mx-0 gap-12  mb-40 lg:mb-0">
+    <div className="flex flex-col items-center justify-center lg:mx-[100px] xl:py-[100px] xl:px-[200px] mx-14 gap-12 mb-40 xl:mb-0">
       <h2 className="font-inter text-white font-semibold text-3xl align-center">
         O nás
       </h2>

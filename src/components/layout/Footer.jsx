@@ -20,7 +20,7 @@ export default function Footer() {
           <img src={linkedin} alt="LinkedIn" className="h-[30px]" />
         </div>
       </div>
-      <div className="flex flex-col gap-10 lg:gap-0 lg:flex-row items-start lg:items-center justify-around col-span-5">
+      <div className="flex flex-col gap-10 xl:gap-0 lg:flex-row items-start lg:items-center justify-around col-span-5">
         <div className="text-white flex flex-col lg:grid lg:grid-rows-7 gap-2 pt-3">
           <div className="font-bold text-xl lg:text-medium mb-2">Ostatní</div>
           <div className="hidden lg:block"></div>
