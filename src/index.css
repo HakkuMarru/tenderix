@@ -266,7 +266,7 @@
 }
 
 .glass-box-nav {
-  position: fixed;
+  /* position: fixed; */
   z-index: 20;
   width: 100%;
   background: rgba(40, 40, 40, 0.25);
@@ -294,13 +294,22 @@
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
+.glass-box-menu-opened {
+  background: rgba(40, 40, 40, 0.99);
+  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  
+}
+
 .glass-box-login {
   background: rgba(68, 68, 68, 0.5);
   /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  /* border: 1px solid rgba(255, 255, 255, 0.18); */
 }
 
 .glass-box-register {
@@ -327,4 +336,17 @@
   height: auto;
   max-height: 9999px;
   transition: all 1s ease-in;
+}
+
+.hidden-el {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateY(100%);
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateY(0);
 }

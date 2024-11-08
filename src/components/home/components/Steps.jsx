@@ -10,7 +10,7 @@ export default function Steps() {
   return (
     <div className="xl:h-[100vh] mb-40 xl:mb-0 xl:py-0 flex items-center justify-center mx-14 lg:mx-[100px] xl:mx-0">
       <div className="grid grid-rows-4 gap-7 lg:gap-5">
-        <div className="glass-box py-6 px-6 md:py-4 md:px-2 lg:py-6 lg:px-8 xl:py-3 xl:px-5 flex flex-col md:flex-row gap-5 items-center justify-start">
+        <div className="hidden-el glass-box py-6 px-6 md:py-4 md:px-2 lg:py-6 lg:px-8 xl:py-5 xl:px-5 flex flex-col md:flex-row gap-5 items-center justify-start">
           <div className="md:flex-[2] lg:flex-[1] flex items-center justify-center xl:flex-auto">
             <img
               src={registration}
@@ -18,7 +18,7 @@ export default function Steps() {
               className="md:object-cover w-[130px] h-[130px] md:w-[120px] md:h-[120px] lg:w-[120px] lg:h-[120px] xl:w-[90px] xl:h-[90px]"
             />
           </div>
-          <div className="flex flex-col justify-center gap-2 md:flex-[5] lg:flex-[5] xl:flex-auto">
+          <div className="flex flex-col justify-center gap-2 md:flex-[5] lg:flex-[5]">
             <h3 className="text-[#C6BFFF] text-center md:text-left text-xl md:text-xl lg:text-xl font-semibold">
               Registrujte se!
             </h3>
@@ -28,57 +28,54 @@ export default function Steps() {
             </div>
           </div>
         </div>
-        <div className="glass-box py-6 px-6 md:py-4 md:px-2 lg:py-6 lg:px-8 xl:py-3 xl:px-5 flex flex-col md:flex-row gap-5 items-center justify-start">
+        <div className="hidden-el glass-box py-6 px-6 md:py-4 md:px-2 lg:py-6 lg:px-8 xl:py-3 xl:px-5 flex flex-col md:flex-row gap-5 items-center justify-start">
           <div className="md:flex-[2] lg:flex-[1] flex items-center justify-center xl:flex-auto">
             <img
-              src={registration}
+              src={activation}
               alt=""
               className="md:object-cover w-[130px] h-[130px] md:w-[120px] md:h-[120px] lg:w-[120px] lg:h-[120px] xl:w-[90px] xl:h-[90px]"
             />
           </div>
-          <div className="flex flex-col justify-center gap-2 md:flex-[5] lg:flex-[5] xl:flex-auto">
+          <div className="flex flex-col justify-center gap-2 md:flex-[5] lg:flex-[5]">
             <h3 className="text-[#C6BFFF] text-center md:text-left text-xl md:text-xl lg:text-xl font-semibold">
-              Registrujte se!
+            Aktivujte si účet!
             </h3>
             <div className="text-[#CBCBCB] text-lg text-center md:text-left">
-              Aby bylo možné využívat služeb Tenderixe, je nezbytné provést
-              jednoduchou registraci.
+            Po registraci je nezbytné prostřednictvím emailu aktivovat svůj účet.
             </div>
           </div>
         </div>
-        <div className="glass-box py-6 px-6 md:py-4 md:px-2 lg:py-6 lg:px-8 xl:py-3 xl:px-5 flex flex-col md:flex-row gap-5 items-center justify-start">
+        <div className="hidden-el glass-box py-6 px-6 md:py-4 md:px-2 lg:py-6 lg:px-8 xl:py-3 xl:px-5 flex flex-col md:flex-row gap-5 items-center justify-start">
           <div className="md:flex-[2] lg:flex-[1] flex items-center justify-center xl:flex-auto">
             <img
-              src={registration}
+              src={question}
               alt=""
               className="md:object-cover w-[130px] h-[130px] md:w-[120px] md:h-[120px] lg:w-[120px] lg:h-[120px] xl:w-[90px] xl:h-[90px]"
             />
           </div>
-          <div className="flex flex-col justify-center gap-2 md:flex-[5] lg:flex-[5] xl:flex-auto">
+          <div className="flex flex-col justify-center gap-2 md:flex-[5] lg:flex-[5]">
             <h3 className="text-[#C6BFFF] text-center md:text-left text-xl md:text-xl lg:text-xl font-semibold">
-              Registrujte se!
+            Zeptej se!
             </h3>
             <div className="text-[#CBCBCB] text-lg text-center md:text-left">
-              Aby bylo možné využívat služeb Tenderixe, je nezbytné provést
-              jednoduchou registraci.
+            Pro získání potřebné odpovědi je nezbytné správně formulovat svůj dotaz / problém z oblasti veřejných zakázek.
             </div>
           </div>
         </div>
-        <div className="glass-box py-6 px-6 md:py-4 md:px-2 lg:py-6 lg:px-8 xl:py-3 xl:px-5 flex flex-col md:flex-row gap-5 items-center justify-start">
+        <div className="hidden-el glass-box py-6 px-6 md:py-4 md:px-2 lg:py-6 lg:px-8 xl:py-3 xl:px-5 flex flex-col md:flex-row gap-5 items-center justify-start">
           <div className="md:flex-[2] lg:flex-[1] flex items-center justify-center xl:flex-auto">
             <img
-              src={registration}
+              src={answer}
               alt=""
               className="md:object-cover w-[130px] h-[130px] md:w-[120px] md:h-[120px] lg:w-[120px] lg:h-[120px] xl:w-[90px] xl:h-[90px]"
             />
           </div>
-          <div className="flex flex-col justify-center gap-2 md:flex-[5] lg:flex-[5] xl:flex-auto">
+          <div className="flex flex-col justify-center gap-2 md:flex-[5] lg:flex-[5]">
             <h3 className="text-[#C6BFFF] text-center md:text-left text-xl md:text-xl lg:text-xl font-semibold">
-              Registrujte se!
+            Získejte zdroje a odpověď!
             </h3>
             <div className="text-[#CBCBCB] text-lg text-center md:text-left">
-              Aby bylo možné využívat služeb Tenderixe, je nezbytné provést
-              jednoduchou registraci.
+            Jestliže byl dotaz správně formulován, je pravděpodobné, že Tenderix odpověděl správně!
             </div>
           </div>
         </div>

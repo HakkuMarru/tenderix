@@ -2,11 +2,11 @@ import { useEffect, useState } from "react";
 
 export default function Links() {
   return (
-    <div className="flex flex-col items-center justify-center mx-14 lg:px-[100px] lg:mx-0 lg:pb-40 xl:py-[100px] xl:px-[200px] gap-12">
-      <h2 className="font-inter text-white font-semibold text-3xl align-center">
+    <div className="flex flex-col items-center justify-center mx-14 lg:px-[100px] lg:mx-0 lg:pb-20 xl:py-[100px] xl:px-[200px] gap-12">
+      <h2 className="hidden-el font-inter text-white font-semibold text-3xl align-center">
         Upozornění
       </h2>
-      <div className="glass-box p-5 text-white text-md">
+      <div className="hidden-el glass-box p-5 text-white text-md">
         Jakékoli výstupy z modelu Tenderix nelze chápat jako poskytování
         odborných informací nebo rad ve smyslu ust. § 2950 zákona č. 89/2012
         Sb., občanského zákoníku, ve znění pozdějších předpisů, a rovněž ani
