@@ -8,9 +8,9 @@ import answer from "../../../assets/steps/answer.png";
 
 export default function Steps() {
   return (
-    <div className="xl:h-[100vh] mb-40 xl:mb-0 xl:py-0 flex items-center justify-center mx-14 lg:mx-[100px] xl:mx-0">
+    <div data-aos="fade-up" className="xl:h-[100vh] mb-40 xl:mb-0 xl:py-0 flex items-center justify-center mx-14 lg:mx-[100px] xl:mx-0">
       <div className="grid grid-rows-4 gap-7 lg:gap-5">
-        <div className="hidden-el glass-box py-6 px-6 md:py-4 md:px-2 lg:py-6 lg:px-8 xl:py-5 xl:px-5 flex flex-col md:flex-row gap-5 items-center justify-start">
+        <div className="glass-box py-6 px-6 md:py-4 md:px-2 lg:py-6 lg:px-8 xl:py-5 xl:px-5 flex flex-col md:flex-row gap-5 items-center justify-start">
           <div className="md:flex-[2] lg:flex-[1] flex items-center justify-center xl:flex-auto">
             <img
               src={registration}
@@ -28,7 +28,7 @@ export default function Steps() {
             </div>
           </div>
         </div>
-        <div className="hidden-el glass-box py-6 px-6 md:py-4 md:px-2 lg:py-6 lg:px-8 xl:py-3 xl:px-5 flex flex-col md:flex-row gap-5 items-center justify-start">
+        <div className="glass-box py-6 px-6 md:py-4 md:px-2 lg:py-6 lg:px-8 xl:py-3 xl:px-5 flex flex-col md:flex-row gap-5 items-center justify-start">
           <div className="md:flex-[2] lg:flex-[1] flex items-center justify-center xl:flex-auto">
             <img
               src={activation}
@@ -45,7 +45,7 @@ export default function Steps() {
             </div>
           </div>
         </div>
-        <div className="hidden-el glass-box py-6 px-6 md:py-4 md:px-2 lg:py-6 lg:px-8 xl:py-3 xl:px-5 flex flex-col md:flex-row gap-5 items-center justify-start">
+        <div className="glass-box py-6 px-6 md:py-4 md:px-2 lg:py-6 lg:px-8 xl:py-3 xl:px-5 flex flex-col md:flex-row gap-5 items-center justify-start">
           <div className="md:flex-[2] lg:flex-[1] flex items-center justify-center xl:flex-auto">
             <img
               src={question}
@@ -62,7 +62,7 @@ export default function Steps() {
             </div>
           </div>
         </div>
-        <div className="hidden-el glass-box py-6 px-6 md:py-4 md:px-2 lg:py-6 lg:px-8 xl:py-3 xl:px-5 flex flex-col md:flex-row gap-5 items-center justify-start">
+        <div className="glass-box py-6 px-6 md:py-4 md:px-2 lg:py-6 lg:px-8 xl:py-3 xl:px-5 flex flex-col md:flex-row gap-5 items-center justify-start">
           <div className="md:flex-[2] lg:flex-[1] flex items-center justify-center xl:flex-auto">
             <img
               src={answer}

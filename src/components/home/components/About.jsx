@@ -28,14 +28,14 @@ export default function About() {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center lg:mx-[100px] xl:py-[100px] xl:px-[100px] mx-14 gap-12 mb-40 xl:mb-0">
-      <h2 className="hidden-el font-inter text-white font-semibold text-3xl align-center">
+    <div data-aos="fade-up" className="flex flex-col items-center justify-center lg:mx-[100px] xl:py-[100px] xl:px-[100px] mx-14 gap-12 mb-40 xl:mb-0">
+      <h2 className="font-inter text-white font-semibold text-3xl align-center">
         O nás
       </h2>
       <div className="grid lg:grid-cols-2 xl:grid-rows-2 xl:grid-cols-1 gap-10">
-        <div
-          className={`hidden-el glass-box p-5 flex flex-col pb-5 xl:flex-row gap-5 ${
-            selected === 2 || bothOpen ? "pb-5" : "pb-0"
+        <div 
+          className={`glass-box p-5 flex flex-col pb-5 xl:flex-row gap-5 ${
+            selected === 1 || bothOpen ? "pb-5" : "pb-0"
           }`}
         >
           {/* Image Section */}
@@ -57,7 +57,7 @@ export default function About() {
               </div>
               <div
                 className="lg:hidden flex items-center justify-center gap-2"
-                onClick={() => toggle(2)}
+                onClick={() => toggle(1)}
               >
                 <div className="text-white text-lg lg:text-lg text-center pt-2">
                   More info{" "}
@@ -66,7 +66,7 @@ export default function About() {
                   src={arrowDown}
                   alt=""
                   className={`invert mt-2 h-[16px] w-[16px] transition-all duration-100 ${
-                    selected === 2 ? "rotate-180" : "rotate-0"
+                    selected === 1 ? "rotate-180" : "rotate-0"
                   }`}
                 />
               </div>
@@ -75,7 +75,7 @@ export default function About() {
             {/* Accordion Content */}
             <div
               className={`xl:hidden text-white text-lg lg:text-xl transition-all duration-300 overflow-hidden ${
-                selected === 2 || bothOpen
+                selected === 1 || bothOpen
                   ? "max-h-[999px] opacity-100"
                   : "max-h-0 opacity-0"
               }`}
@@ -111,7 +111,7 @@ export default function About() {
           </div>
         </div>
         <div
-          className={`hidden-el glass-box p-5 flex flex-col pb-5 xl:flex-row gap-5 ${
+          className={`glass-box p-5 flex flex-col pb-5 xl:flex-row gap-5 ${
             selected === 2 || bothOpen ? "pb-5" : "pb-0"
           }`}
         >
@@ -193,7 +193,7 @@ export default function About() {
         </div>
       </div>
       <div
-        className="hidden-el hidden glass-box w-full lg:flex xl:hidden items-center justify-center"
+        className="hidden glass-box w-full lg:flex xl:hidden items-center justify-center"
         onClick={toggleBoth}
       >
         <img
