@@ -285,6 +285,15 @@
   /* border: 1px solid rgba(255, 255, 255, 0.18); */
 }
 
+.glass-box-menu-icon {
+  background: rgba(68, 68, 68, 0.5);
+  /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
 .glass-box-login {
   background: rgba(68, 68, 68, 0.5);
   /* box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); */
@@ -309,13 +318,13 @@
 }
 
 .description {
-  max-width: 0;
+  max-height: 0;
   overflow: hidden;
-  transition: all 0.5s ease-in;
+  transition: all 1s ease-in;
 }
 
 .description.show {
-  width: auto;
-  max-width: 9999px;
-  transition: all 0.5s ease-in;
+  height: auto;
+  max-height: 9999px;
+  transition: all 1s ease-in;
 }
