@@ -32,7 +32,7 @@ export default function About() {
       data-aos="fade-up"
       className="flex flex-col items-center justify-center px-[75px] xl:px-[200px] gap-10"
     >
-      <h2 className="font-inter text-white font-semibold text-2xl align-center">
+      <h2 className="font-inter text-white font-semibold text-2xl align-center text-center">
         O nás
       </h2>
       <div className="grid lg:grid-cols-2 xl:grid-rows-2 xl:grid-cols-1 gap-5 xl:gap-10">

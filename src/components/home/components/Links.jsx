@@ -8,7 +8,7 @@ export default function Links() {
       data-aos="fade-up"
       className="flex flex-col items-center justify-center px-[75px] xl:px-[200px] gap-10"
     >
-      <h2 className="font-inter text-white font-semibold text-2xl align-center">
+      <h2 className="font-inter text-white font-semibold text-2xl align-center text-center">
         Užitečné odkazy
       </h2>
       <div className="w-full flex flex-col gap-10 xl:gap-20">

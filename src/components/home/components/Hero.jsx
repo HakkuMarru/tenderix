@@ -3,7 +3,7 @@ import purpleShade from "../../../assets/shade/purple-shade.png";
 
 export default function Hero() {
   return (
-    <div className="relative h-screen flex items-center justify-center xl:pt-[90px]">
+    <div className="relative h-screen flex items-center justify-center pt-[50px] xl:pt-[90px]">
       <div className="flex items-center justify-center flex-col gap-2 xl:gap-5 z-10">
         <h1 data-aos="fade-up" className="hidden-el font-poppins text-white font-bold leading-snug text-center text-4xl xl:text-6xl">
           První umělá inteligence <br /> ve veřejných zakázkách
