@@ -45,7 +45,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="bg-[rgba(0,0,0,0.4)] pb-20 md:pb-20 lg:pb-0">
+    <main className="bg-[rgba(0,0,0,0.4)] flex flex-col gap-28 xl:gap-36 pb-[75px] xl:pb-20">
       <Hero />
       <Steps />
       <Resources />

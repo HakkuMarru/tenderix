@@ -64,20 +64,20 @@ export default function Header() {
         }`}
       >
         <div className="flex items-center justify-center flex-col gap-8">
-          <div className="bg-[#593364] font-poppins text-white text-3xl font-semibold rounded-xl text-center px-5 py-3">
+          <div className="bg-[#593364] font-poppins text-white text-2xl font-semibold rounded-xl text-center px-5 py-3">
             Přihlásit
           </div>
           <div></div>
-          <div className="text-white font-poppins text-3xl font-semibold">
+          <div className="text-white font-poppins text-2xl font-semibold">
             O nás
           </div>
-          <div className="text-white font-poppins text-3xl font-semibold">
+          <div className="text-white font-poppins text-2xl font-semibold">
             Ceník
           </div>
-          <div className="text-white font-poppins text-3xl font-semibold">
+          <div className="text-white font-poppins text-2xl font-semibold">
             Aktuálně
           </div>
-          <div className="text-white font-poppins text-3xl font-semibold">
+          <div className="text-white font-poppins text-2xl font-semibold">
             Kontakt
           </div>
         </div>

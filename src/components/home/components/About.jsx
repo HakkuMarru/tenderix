@@ -28,13 +28,16 @@ export default function About() {
   };
 
   return (
-    <div data-aos="fade-up" className="flex flex-col items-center justify-center lg:mx-[100px] xl:py-[100px] xl:px-[100px] mx-14 gap-12 mb-40 xl:mb-0">
-      <h2 className="font-inter text-white font-semibold text-3xl align-center">
+    <div
+      data-aos="fade-up"
+      className="flex flex-col items-center justify-center px-[75px] xl:px-[200px] gap-10"
+    >
+      <h2 className="font-inter text-white font-semibold text-2xl align-center">
         O nás
       </h2>
-      <div className="grid lg:grid-cols-2 xl:grid-rows-2 xl:grid-cols-1 gap-10">
-        <div 
-          className={`glass-box p-5 flex flex-col pb-5 xl:flex-row gap-5 ${
+      <div className="grid lg:grid-cols-2 xl:grid-rows-2 xl:grid-cols-1 gap-5 xl:gap-10">
+        <div
+          className={`glass-box p-5 flex flex-col xl:flex-row gap-5 ${
             selected === 1 || bothOpen ? "pb-5" : "pb-0"
           }`}
         >
@@ -49,10 +52,10 @@ export default function About() {
           <div className="flex flex-col gap-5">
             {/* Accordion Header */}
             <div className="flex flex-col gap-1 cursor-pointer">
-              <div className="text-[#C6BFFF] text-xl lg:text-2xl">
+              <h3 className="text-[#C6BFFF] text-xl lg:text-xl text-center">
                 Ing. Dominik Žlebek, LL.M.
-              </div>
-              <div className="text-white text-lg lg:text-lg">
+              </h3>
+              <div className="text-white text-md text-center">
                 specialista veřejných zakázek
               </div>
               <div
@@ -74,7 +77,7 @@ export default function About() {
 
             {/* Accordion Content */}
             <div
-              className={`xl:hidden text-white text-lg lg:text-xl transition-all duration-300 overflow-hidden ${
+              className={`xl:hidden text-justify text-white text-lg lg:text-xl transition-all duration-300 overflow-hidden ${
                 selected === 1 || bothOpen
                   ? "max-h-[999px] opacity-100"
                   : "max-h-0 opacity-0"
@@ -94,7 +97,7 @@ export default function About() {
               umělé inteligence ve veřejných zakázkách.
             </div>
 
-            <div className="hidden xl:block text-white text-md">
+            <div className="hidden xl:block text-white text-md text-justify">
               Dominik Žlebek je absolventem Provozně ekonomické fakulty na České
               zemědělské univerzitě v Praze, kde vystudoval obor Podnikání a
               administrativa a získal akademický titul Ing. Již během studia se
@@ -111,14 +114,14 @@ export default function About() {
           </div>
         </div>
         <div
-          className={`glass-box p-5 flex flex-col pb-5 xl:flex-row gap-5 ${
-            selected === 2 || bothOpen ? "pb-5" : "pb-0"
+          className={`glass-box p-5 flex flex-col xl:flex-row gap-5 ${
+            selected === 1 || bothOpen ? "pb-5" : "pb-0"
           }`}
         >
           {/* Image Section */}
           <img
-            src={janMusil}
-            alt="Jan Musil"
+            src={dominikZlebek}
+            alt="Dominik Zlebek"
             className="rounded-md w-[300px] lg:w-full object-cover"
           />
 
@@ -126,15 +129,15 @@ export default function About() {
           <div className="flex flex-col gap-5">
             {/* Accordion Header */}
             <div className="flex flex-col gap-1 cursor-pointer">
-              <div className="text-[#C6BFFF] text-xl lg:text-2xl">
-                JUDr. Jan Musil, LL.M.
-              </div>
-              <div className="text-white text-lg lg:text-lg">
-                právník veřejných zakázek, advokátní koncipient
+              <h3 className="text-[#C6BFFF] text-xl lg:text-xl text-center">
+                Ing. Dominik Žlebek, LL.M.
+              </h3>
+              <div className="text-white text-md text-center">
+                specialista veřejných zakázek
               </div>
               <div
                 className="lg:hidden flex items-center justify-center gap-2"
-                onClick={() => toggle(2)}
+                onClick={() => toggle(1)}
               >
                 <div className="text-white text-lg lg:text-lg text-center pt-2">
                   More info{" "}
@@ -143,7 +146,7 @@ export default function About() {
                   src={arrowDown}
                   alt=""
                   className={`invert mt-2 h-[16px] w-[16px] transition-all duration-100 ${
-                    selected === 2 ? "rotate-180" : "rotate-0"
+                    selected === 1 ? "rotate-180" : "rotate-0"
                   }`}
                 />
               </div>
@@ -151,43 +154,39 @@ export default function About() {
 
             {/* Accordion Content */}
             <div
-              className={`xl:hidden text-white text-lg lg:text-xl transition-all duration-300 overflow-hidden ${
-                selected === 2 || bothOpen
+              className={`xl:hidden text-justify text-white text-lg lg:text-xl transition-all duration-300 overflow-hidden ${
+                selected === 1 || bothOpen
                   ? "max-h-[999px] opacity-100"
                   : "max-h-0 opacity-0"
               }`}
             >
-              Jan Musil je absolventem Právnické fakulty Univerzity Karlovy v
-              Praze, které zakončil rigorózní zkouškou a získáním akademického
-              titulu JUDr. Již během studia absolvoval řadu stáží jak ve
-              veřejném sektoru, např. na Vrchním soudu v Praze a Nejvyšším
-              správním soudu v Brně, tak soukromém. Po škole se začal plně
-              věnovat problematice zadávání veřejných zakázek, a to nejprve v
-              rámci Technologické agentuře České republiky jako právník
-              veřejných zakázek v oblasti Výzkumu, vývoje a inovací. V
-              současnoti působí jako advokátní koncipient se specializací na
-              veřejné zakázky v renomované advokátní kanceláři MT Legal s.r.o.
-              Nadto se věnuje vzdělávání a šíření dobrého povědomí o oblasti
-              veřejných zakázek v rámci platformy „Veřejné zakázky 24“ a
-              aplikace Tenderix - první umělé inteligence ve veřejných
-              zakázkách.
+              Dominik Žlebek je absolventem Provozně ekonomické fakulty na České
+              zemědělské univerzitě v Praze, kde vystudoval obor Podnikání a
+              administrativa a získal akademický titul Ing. Již během studia se
+              zaměřil na oblast veřejných zakázek v Technologické agentuře České
+              republiky, kde profesně působil jako projektový manažer veřejných
+              zakázek ve Výzkumu, vývoji a inovacích. Po škole se začal plně
+              věnovat zadávání veřejných zakázek v městské společnosti
+              Technologie hlavního města Prahy, a. s. a v současnosti působí v
+              Praze jako konzultant veřejných zakázek. Nadto se věnuje
+              vzdělávání a šíření dobrého povědomí o oblasti veřejných zakázek v
+              rámci platformy „Veřejné zakázky 24“ a aplikace Tenderix - první
+              umělé inteligence ve veřejných zakázkách.
             </div>
 
-            <div className="hidden xl:block text-white text-md">
-              Jan Musil je absolventem Právnické fakulty Univerzity Karlovy v
-              Praze, které zakončil rigorózní zkouškou a získáním akademického
-              titulu JUDr. Již během studia absolvoval řadu stáží jak ve
-              veřejném sektoru, např. na Vrchním soudu v Praze a Nejvyšším
-              správním soudu v Brně, tak soukromém. Po škole se začal plně
-              věnovat problematice zadávání veřejných zakázek, a to nejprve v
-              rámci Technologické agentuře České republiky jako právník
-              veřejných zakázek v oblasti Výzkumu, vývoje a inovací. V
-              současnoti působí jako advokátní koncipient se specializací na
-              veřejné zakázky v renomované advokátní kanceláři MT Legal s.r.o.
-              Nadto se věnuje vzdělávání a šíření dobrého povědomí o oblasti
-              veřejných zakázek v rámci platformy „Veřejné zakázky 24“ a
-              aplikace Tenderix - první umělé inteligence ve veřejných
-              zakázkách.
+            <div className="hidden xl:block text-white text-md text-justify">
+              Dominik Žlebek je absolventem Provozně ekonomické fakulty na České
+              zemědělské univerzitě v Praze, kde vystudoval obor Podnikání a
+              administrativa a získal akademický titul Ing. Již během studia se
+              zaměřil na oblast veřejných zakázek v Technologické agentuře České
+              republiky, kde profesně působil jako projektový manažer veřejných
+              zakázek ve Výzkumu, vývoji a inovacích. Po škole se začal plně
+              věnovat zadávání veřejných zakázek v městské společnosti
+              Technologie hlavního města Prahy, a. s. a v současnosti působí v
+              Praze jako konzultant veřejných zakázek. Nadto se věnuje
+              vzdělávání a šíření dobrého povědomí o oblasti veřejných zakázek v
+              rámci platformy „Veřejné zakázky 24“ a aplikace Tenderix - první
+              umělé inteligence ve veřejných zakázkách.
             </div>
           </div>
         </div>

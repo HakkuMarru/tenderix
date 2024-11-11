@@ -2,62 +2,63 @@ import { useEffect, useState } from "react";
 
 export default function Resources() {
   return (
-    <div data-aos="fade-up" className="flex flex-col justify-center items-center gap-14 h-full xl:h-screen mb-40 xl:mb-0 lg:py-0 lg:px-[100px] xl:px-[200px] mx-14 lg:mx-0">
-      <h2 className=" text-white font-semibold text-3xl text-center lg:text-left">
+    <div data-aos="fade-up" className="flex flex-col justify-center items-center gap-10 h-full px-[75px] xl:px-[200px]">
+      <h2 className=" text-white font-semibold text-2xl text-center lg:text-left">
         Rozsáhlé odborné zdroje z oblasti veřejných zakázek
       </h2>
-      <div className="grid grid-rows-6 md:grid-rows-3 md:grid-cols-2 xl:grid-cols-3 xl:grid-rows-2 gap-10">
-        <div className="glass-box bg-[#282828] p-5 rounded-md flex flex-col gap-2 lg:gap-4 ">
+      <div className="grid grid-rows-6 md:grid-rows-3 md:grid-cols-2 xl:grid-cols-3 xl:grid-rows-2 gap-5 xl:gap-10">
+      <div className="glass-box bg-[#282828] p-5 rounded-md flex flex-col gap-2">
           <h3 className="font-inter text-white text-2xl lg:text-xl font-semibold relative before:content-[''] before:block before:h-[140%] before:w-0.5 before:bg-purple-500 before:absolute before:left-[-10px] lg:before:left-[-7.5px]">
             Rozhodovací praxe
           </h3>
-          <div className="text-[#CBCBCB] text-lg lg:text-medium">
+          <div className="text-[#CBCBCB] text-md lg:text-medium text-justify">
             Prvostupňová i druhostupňová rozhodnutí Úřadu pro ochranu
             hospodářské soutěže od roku 2016.
           </div>
         </div>
         <div className="glass-box bg-[#282828] p-5 rounded-md flex flex-col gap-2 lg:gap-4 ">
           <h3 className="font-inter text-white text-2xl lg:text-xl font-semibold relative before:content-[''] before:block before:h-[140%] before:w-0.5 before:bg-purple-500 before:absolute before:left-[-10px] lg:before:left-[-7.5px]">
-            Judikatura
+            Rozhodovací praxe
           </h3>
-          <div className="text-[#CBCBCB] text-lg lg:text-medium">
-            Judikáty Městského soudu v Praze, Krajského soudu v Brně a
-            Nejvyššího správního soudu a judikáty Soudního dvora Evropské unie.
+          <div className="text-[#CBCBCB] text-md lg:text-medium text-justify">
+            Prvostupňová i druhostupňová rozhodnutí Úřadu pro ochranu
+            hospodářské soutěže od roku 2016.
           </div>
         </div>
         <div className="glass-box bg-[#282828] p-5 rounded-md flex flex-col gap-2 lg:gap-4 ">
           <h3 className="font-inter text-white text-2xl lg:text-xl font-semibold relative before:content-[''] before:block before:h-[140%] before:w-0.5 before:bg-purple-500 before:absolute before:left-[-10px] lg:before:left-[-7.5px]">
-            Přednášky a články
+            Rozhodovací praxe
           </h3>
-          <div className="text-[#CBCBCB] text-lg lg:text-medium">
-            Odborné (veřejně dostupné) prezentace MMR, ÚOHS, AVZ, SOVZ a dalších
-            institucí a odborné články.
+          <div className="text-[#CBCBCB] text-md lg:text-medium text-justify">
+            Prvostupňová i druhostupňová rozhodnutí Úřadu pro ochranu
+            hospodářské soutěže od roku 2016.
           </div>
         </div>
         <div className="glass-box bg-[#282828] p-5 rounded-md flex flex-col gap-2 lg:gap-4 ">
           <h3 className="font-inter text-white text-2xl lg:text-xl font-semibold relative before:content-[''] before:block before:h-[140%] before:w-0.5 before:bg-purple-500 before:absolute before:left-[-10px] lg:before:left-[-7.5px]">
-            Metodiky
+            Rozhodovací praxe
           </h3>
-          <div className="text-[#CBCBCB] text-lg lg:text-medium">
-            Metodická stanoviska MMR, ÚOHS, TA ČR, CRR, AVZ, SFDI, ČKAIT a
-            dalších institucí.
+          <div className="text-[#CBCBCB] text-md lg:text-medium text-justify">
+            Prvostupňová i druhostupňová rozhodnutí Úřadu pro ochranu
+            hospodářské soutěže od roku 2016.
           </div>
         </div>
         <div className="glass-box bg-[#282828] p-5 rounded-md flex flex-col gap-2 lg:gap-4 ">
           <h3 className="font-inter text-white text-2xl lg:text-xl font-semibold relative before:content-[''] before:block before:h-[140%] before:w-0.5 before:bg-purple-500 before:absolute before:left-[-10px] lg:before:left-[-7.5px]">
-            Výkladová stanoviska
+            Rozhodovací praxe
           </h3>
-          <div className="text-[#CBCBCB] text-lg lg:text-medium">
-            Výkladová stanoviska MMR, ÚOHS, AVZ a dalších institucí.
+          <div className="text-[#CBCBCB] text-md lg:text-medium text-justify">
+            Prvostupňová i druhostupňová rozhodnutí Úřadu pro ochranu
+            hospodářské soutěže od roku 2016.
           </div>
         </div>
         <div className="glass-box bg-[#282828] p-5 rounded-md flex flex-col gap-2 lg:gap-4 ">
           <h3 className="font-inter text-white text-2xl lg:text-xl font-semibold relative before:content-[''] before:block before:h-[140%] before:w-0.5 before:bg-purple-500 before:absolute before:left-[-10px] lg:before:left-[-7.5px]">
-            Legislativa
+            Rozhodovací praxe
           </h3>
-          <div className="text-[#CBCBCB] text-lg lg:text-medium">
-            Relevantní právní úprava ve smyslu Evropských zadávacích směrnic,
-            ZZVZ, prováděcích vyhlášek, zákona o registru smluv apod.
+          <div className="text-[#CBCBCB] text-md lg:text-medium text-justify">
+            Prvostupňová i druhostupňová rozhodnutí Úřadu pro ochranu
+            hospodářské soutěže od roku 2016.
           </div>
         </div>
       </div>

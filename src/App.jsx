@@ -9,8 +9,8 @@ function App() {
   return (
     <main>
       <Header></Header>
-      {/* <Home></Home> */}
-        <Pricing></Pricing>
+      <Home></Home>
+        {/* <Pricing></Pricing> */}
       <Footer></Footer>
     </main>
   )
