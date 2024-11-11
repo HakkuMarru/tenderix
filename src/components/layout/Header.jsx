@@ -44,6 +44,15 @@ export default function Header() {
         </div>
       </div>
 
+      <div className="flex gap-4 justify-end items-center z-50">
+        <div className="hidden lg:block text-white bg-[#303030] px-3 py-1 rounded-lg text-lg border-2 border-[#949494] transition-all duration-300 cursor-pointer">
+          Přihlásit
+        </div>
+        <div className="text-black bg-[#ffffff] px-3 py-1 rounded-lg text-md xl:text-lg border-2 transition-all duration-300 cursor-pointer">
+          Vyzkoušet zdarma
+        </div>
+      </div>
+
       {/* Mobile Menu Button */}
       <div
         className="xl:hidden absolute right-[20px] -bottom-[75px] rounded-full glass-box-menu-icon p-4 z-50 cursor-pointer"
