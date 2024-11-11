@@ -42,7 +42,7 @@ export default function Header() {
         <div className="hidden lg:block text-white bg-[#303030] px-3 py-1 rounded-lg text-lg border-2 border-[#949494] transition-all duration-300 cursor-pointer">
           Přihlásit
         </div>
-        <div className="text-black bg-[#ffffff] px-3 py-1 rounded-lg text-lg border-2 transition-all duration-300 cursor-pointer">
+        <div className="text-black bg-[#ffffff] px-3 py-1 rounded-lg text-md xl:text-lg border-2 transition-all duration-300 cursor-pointer">
           Vyzkoušet zdarma
         </div>
       </div>

@@ -8,7 +8,7 @@ export default function Steps() {
   return (
     <div
       data-aos="fade-up"
-      className="flex items-center justify-center px-[75px] xl:px-[250px]"
+      className="flex items-center justify-center px-[60px] xl:px-[250px]"
     >
       <div className="grid grid-rows-4 gap-5">
         <div className="glass-box py-6 px-6 md:py-4 md:px-2 lg:py-6 lg:px-8 xl:py-5 xl:px-7 flex flex-col md:flex-row gap-5 items-center justify-start">

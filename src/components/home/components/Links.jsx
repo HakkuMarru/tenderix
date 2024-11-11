@@ -6,7 +6,7 @@ export default function Links() {
   return (
     <div
       data-aos="fade-up"
-      className="flex flex-col items-center justify-center px-[75px] xl:px-[200px] gap-10"
+      className="flex flex-col items-center justify-center px-[60px] xl:px-[200px] gap-10"
     >
       <h2 className="font-inter text-white font-semibold text-2xl align-center text-center">
         Užitečné odkazy
