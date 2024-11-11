@@ -30,14 +30,14 @@ export default function About() {
   return (
     <div
       data-aos="fade-up"
-      className="flex flex-col items-center justify-center px-[60px] xl:px-[200px] gap-10"
+      className="flex flex-col items-center justify-center px-[60px] md:px-[100px] xl:px-[200px] gap-10"
     >
       <h2 className="font-inter text-white font-semibold text-2xl align-center text-center">
         O nás
       </h2>
       <div className="grid lg:grid-cols-2 xl:grid-rows-2 xl:grid-cols-1 gap-5 xl:gap-10">
         <div
-          className={`glass-box p-5 flex flex-col xl:flex-row gap-5 ${
+          className={`glass-box p-5 flex flex-col xl:flex-row xl:pb-5 gap-5 ${
             selected === 1 || bothOpen ? "pb-5" : "pb-0"
           }`}
         >
@@ -45,17 +45,17 @@ export default function About() {
           <img
             src={dominikZlebek}
             alt="Dominik Zlebek"
-            className="rounded-md w-[300px] lg:w-full object-cover"
+            className="rounded-md w-[300px] lg:w-full object-cover md:self-center"
           />
 
           {/* Accordion Section */}
           <div className="flex flex-col gap-5">
             {/* Accordion Header */}
             <div className="flex flex-col gap-1 cursor-pointer">
-              <h3 className="text-[#C6BFFF] text-xl lg:text-xl text-center">
+              <h3 className="text-[#C6BFFF] text-xl lg:text-xl text-center xl:text-left">
                 Ing. Dominik Žlebek, LL.M.
               </h3>
-              <div className="text-white text-md text-center">
+              <div className="text-white text-md text-center xl:text-left">
                 specialista veřejných zakázek
               </div>
               <div
@@ -114,7 +114,7 @@ export default function About() {
           </div>
         </div>
         <div
-          className={`glass-box p-5 flex flex-col xl:flex-row gap-5 ${
+          className={`glass-box p-5 flex flex-col xl:pb-5 xl:flex-row gap-5 ${
             selected === 1 || bothOpen ? "pb-5" : "pb-0"
           }`}
         >
@@ -122,17 +122,17 @@ export default function About() {
           <img
             src={dominikZlebek}
             alt="Dominik Zlebek"
-            className="rounded-md w-[300px] lg:w-full object-cover"
+            className="rounded-md w-[300px] lg:w-full object-cover md:self-center"
           />
 
           {/* Accordion Section */}
           <div className="flex flex-col gap-5">
             {/* Accordion Header */}
             <div className="flex flex-col gap-1 cursor-pointer">
-              <h3 className="text-[#C6BFFF] text-xl lg:text-xl text-center">
+              <h3 className="text-[#C6BFFF] text-xl lg:text-xl text-center xl:text-left">
                 Ing. Dominik Žlebek, LL.M.
               </h3>
-              <div className="text-white text-md text-center">
+              <div className="text-white text-md text-center xl:text-left">
                 specialista veřejných zakázek
               </div>
               <div

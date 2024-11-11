@@ -19,10 +19,10 @@ export default function Pricing() {
   }, []);
 
   return (
-    <main className="bg-[rgba(0,0,0,0.4)] pb-20 md:pb-20 lg:pb-0">
+    <main className="bg-[rgba(0,0,0,0.4)]  flex flex-col gap-10 pb-[75px] xl:pb-10">
+      <Background />
       <Price />
       <ExtendedVersion />
-      <Background />
     </main>
   );
 }

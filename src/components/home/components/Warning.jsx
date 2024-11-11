@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 export default function Links() {
   return (
-    <div data-aos="fade-up" className="flex flex-col items-center justify-center gap-10 px-[60px] xl:px-[200px]">
+    <div data-aos="fade-up" className="flex flex-col items-center justify-center gap-10 px-[60px] md:px-[100px] xl:px-[200px]">
       <h2 className="font-inter text-white font-semibold text-2xl align-center text-center">
         Upozornění
       </h2>

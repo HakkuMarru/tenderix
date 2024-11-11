@@ -14,10 +14,10 @@ export default function ExtendedVersion() {
   }, []);
 
   return (
-    <div className="h-full px-[275px] pt-[0px] pb-[60px]">
+    <div data-aos="fade-up" className="h-full px-[75px] xl:px-[250px] xl:pt-[0px] xl:pb-[60px]">
       <div className="glass-box p-8 flex flex-col gap-5">
         <h3 className="text-[#C6BFFF] text-xl text-center font-semibold w-full">Rozšířená verze pro organizaci</h3>
-        <div className="text-white text-sm text-center px-[100px]">
+        <div className="text-white text-sm text-center xl:px-[100px]">
           Máte zájem o rozšířenou verzi pro Vaši organizaci s více uživateli a
           individuálními podmínkami, nebo Vám jen nevyhovuje žádný z výše
           uvedených tarifl? <br /><br />
