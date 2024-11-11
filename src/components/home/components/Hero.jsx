@@ -8,7 +8,7 @@ export default function Hero() {
         <h1 data-aos="fade-up" className="hidden-el font-poppins text-white font-bold leading-snug text-center text-4xl xl:text-6xl">
           První umělá inteligence <br /> ve veřejných zakázkách
         </h1>
-        <div data-aos="fade-up" className="text-[#C6BFFF] px-[120px] text-md xl:text-xl text-center font-semibold">
+        <div data-aos="fade-up" className="text-[#C6BFFF] px-[110px] text-md xl:text-xl text-center font-semibold">
           Zvyšte svou efektivitu a produktivitu s využitím umělé inteligence{" "}
           <br /> ve veřejných zakázkách.
         </div>
