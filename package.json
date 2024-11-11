@@ -19,7 +19,7 @@
     "react-bootstrap": "^2.10.5",
     "react-dom": "^18.3.1",
     "rsuite": "^5.74.2",
-    "serve": "^14.0.1" // Added serve as a dependency
+    "serve": "^14.0.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
