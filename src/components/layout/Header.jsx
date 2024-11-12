@@ -1,15 +1,19 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation  } from "react-router-dom";
 import logo from "../../assets/logo/logo.png";
 import menu from "../../assets/menu.png";
 import close from "../../assets/close.png";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+
+  // Function to check if a route is active
+  const isActive = (path) => location.pathname === path;
 
   return (
     <nav className="fixed glass-box-nav bg-black h-[90px] lg:h-[120px] xl:h-[90px] lg:px-[40px] p-[20px] flex justify-between xl:grid xl:grid-cols-3">
@@ -30,12 +34,27 @@ export default function Header() {
 
       {/* Desktop Navigation Links */}
       <div className="xl:flex gap-4 justify-center items-center hidden">
-        <Link to="/home" className="text-white text-lg bg-[rgb(112,64,126)] px-3 py-1 rounded-lg cursor-pointer">
+        {/* O nás Link */}
+        <Link
+          to="/home"
+          className={`text-white text-lg px-3 py-1 rounded-lg cursor-pointer ${
+            isActive("/home") ? "bg-[rgb(112,64,126)]" : ""
+          }`}
+        >
           O nás
         </Link>
-        <Link to="/price" className="text-white text-lg cursor-pointer hover:bg-white hover:text-black px-3 py-1 rounded-lg transition-all duration-300">
+
+        {/* Ceník Link */}
+        <Link
+          to="/price"
+          className={`text-white text-lg px-3 py-1 rounded-lg cursor-pointer ${
+            isActive("/price") ? "bg-[rgb(112,64,126)]" : "hover:bg-white hover:text-black"
+          }`}
+        >
           Ceník
         </Link>
+
+        {/* Other Links (not yet implemented) */}
         <div className="text-white text-lg cursor-pointer hover:bg-white hover:text-black px-3 py-1 rounded-lg transition-all duration-300">
           Aktuálně
         </div>

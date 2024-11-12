@@ -14,7 +14,7 @@ export default function ExtendedVersion() {
   }, []);
 
   return (
-    <div data-aos="fade-up" className="h-full px-[75px] xl:px-[250px] xl:pt-[0px] xl:pb-[60px]">
+    <div data-aos="fade-up" className="h-full px-[75px] xl:px-[275px] xl:pt-[0px] xl:pb-[60px]">
       <div className="glass-box p-8 flex flex-col gap-5">
         <h3 className="text-[#C6BFFF] text-xl text-center font-semibold w-full">Rozšířená verze pro organizaci</h3>
         <div className="text-white text-sm text-center xl:px-[100px]">

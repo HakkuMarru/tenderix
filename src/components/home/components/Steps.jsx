@@ -32,54 +32,54 @@ export default function Steps() {
         <div className="glass-box py-6 px-6 md:py-2 md:px-6 lg:py-6 lg:px-8 xl:py-5 xl:px-7 flex flex-col md:flex-row gap-5 items-center justify-start">
           <div className="flex items-center justify-center xl:flex-auto">
             <img
-              src={registration}
+              src={activation}
               alt=""
               className="w-[120px] h-[120px] md:object-contain xl:w-[90px] xl:h-[90px]"
             />
           </div>
           <div className="flex flex-col justify-center gap-2">
             <h3 className="text-[#C6BFFF] text-center md:text-left text-xl md:text-xl lg:text-xl xl:text-xl font-semibold">
-              Registrujte se!
+              Aktivujte si účet!
             </h3>
             <div className="text-[#CBCBCB] text-md text-justify md:text-left xl:text-md">
-              Aby bylo možné využívat služeb Tenderixe, je nezbytné provést
-              jednoduchou registraci.
+              Po registraci je nezbytné prostřednictvím emailu aktivovat svůj
+              účet.
             </div>
           </div>
         </div>
         <div className="glass-box py-6 px-6 md:py-2 md:px-6 lg:py-6 lg:px-8 xl:py-5 xl:px-7 flex flex-col md:flex-row gap-5 items-center justify-start">
           <div className="flex items-center justify-center xl:flex-auto">
             <img
-              src={registration}
+              src={question}
               alt=""
               className="w-[120px] h-[120px] md:object-contain xl:w-[90px] xl:h-[90px]"
             />
           </div>
           <div className="flex flex-col justify-center gap-2">
             <h3 className="text-[#C6BFFF] text-center md:text-left text-xl md:text-xl lg:text-xl xl:text-xl font-semibold">
-              Registrujte se!
+              Zeptej se!
             </h3>
             <div className="text-[#CBCBCB] text-md text-justify md:text-left xl:text-md">
-              Aby bylo možné využívat služeb Tenderixe, je nezbytné provést
-              jednoduchou registraci.
+              Pro získání potřebné odpovědi je nezbytné správně formulovat svůj
+              dotaz / problém z oblasti veřejných zakázek.
             </div>
           </div>
         </div>
         <div className="glass-box py-6 px-6 md:py-2 md:px-6 lg:py-6 lg:px-8 xl:py-5 xl:px-7 flex flex-col md:flex-row gap-5 items-center justify-start">
           <div className="flex items-center justify-center xl:flex-auto">
             <img
-              src={registration}
+              src={answer}
               alt=""
               className="w-[120px] h-[120px] md:object-contain xl:w-[90px] xl:h-[90px]"
             />
           </div>
           <div className="flex flex-col justify-center gap-2">
             <h3 className="text-[#C6BFFF] text-center md:text-left text-xl md:text-xl lg:text-xl xl:text-xl font-semibold">
-              Registrujte se!
+              Získejte zdroje a odpověď!
             </h3>
             <div className="text-[#CBCBCB] text-md text-justify md:text-left xl:text-md">
-              Aby bylo možné využívat služeb Tenderixe, je nezbytné provést
-              jednoduchou registraci.
+              Jestliže byl dotaz správně formulován, je pravděpodobné, že
+              Tenderix odpověděl správně!
             </div>
           </div>
         </div>

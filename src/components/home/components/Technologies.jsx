@@ -24,14 +24,13 @@ export default function Technologies() {
         </div>
         <div className="flex-1 glass-box flex flex-col gap-2 font-inter bg-[#282828] rounded-md text-white p-5">
           <h3 className=" text-xl font-semibold relative before:content-[''] before:block before:h-[125%] before:w-[2px] before:bg-purple-500 before:absolute before:left-[-12px]">
-            LLM model
+            OpenAI Chat GPT
           </h3>
           <div className="text-md text-justify">
-            Tenderix využívá technologii{" "}
-            <span className="font-bold">LLM modelu</span>
-            , který kombinuje umělou inteligenci a strojové učení. <br /> Tento
-            model odpovídá a poskytuje zdroje na základě sémantické shody mezi
-            zadáním uživatele a rozsáhlou vektorovou znalostní bází.
+            Model využívá nejnovější verzi technologie{" "}
+            <span className="font-bold">OpenAI Chat GPT</span>, díky které je
+            schopen nabídnout relevantní a přesné odpovědi, které uspokojí různé
+            potřeby uživatelů v reálném čase.
           </div>
         </div>
       </div>
