@@ -11,7 +11,7 @@ export default function Steps() {
       className="flex items-center justify-center px-[60px] md:px-[100px] xl:px-[250px]"
     >
       <div className="grid grid-rows-4 gap-5">
-        <div className="glass-box py-6 px-6 md:py-2 md:px-6 lg:py-6 lg:px-8 xl:py-5 xl:px-7 flex flex-col md:flex-row gap-5 items-center justify-start">
+        <div className="glass-box py-6 px-6 md:py-2 md:px-6 lg:py-6 lg:px-8 xl:py-5 xl:px-5 flex flex-col md:flex-row gap-5 items-center justify-start">
           <div className="flex xl:flex-[1] items-center justify-center">
             <img
               src={registration}
@@ -29,7 +29,7 @@ export default function Steps() {
             </div>
           </div>
         </div>
-        <div className="glass-box py-6 px-6 md:py-2 md:px-6 lg:py-6 lg:px-8 xl:py-5 xl:px-7 flex flex-col md:flex-row gap-5 items-center justify-start">
+        <div className="glass-box py-6 px-6 md:py-2 md:px-6 lg:py-6 lg:px-8 xl:py-5 xl:px-5 flex flex-col md:flex-row gap-5 items-center justify-start">
           <div className="flex xl:flex-[1] items-center justify-center">
             <img
               src={activation}
@@ -47,7 +47,7 @@ export default function Steps() {
             </div>
           </div>
         </div>
-        <div className="glass-box py-6 px-6 md:py-2 md:px-6 lg:py-6 lg:px-8 xl:py-5 xl:px-7 flex flex-col md:flex-row gap-5 items-center justify-start">
+        <div className="glass-box py-6 px-6 md:py-2 md:px-6 lg:py-6 lg:px-8 xl:py-5 xl:px-5 flex flex-col md:flex-row gap-5 items-center justify-start">
           <div className="flex xl:flex-[1] items-center justify-center">
             <img
               src={question}
@@ -65,7 +65,7 @@ export default function Steps() {
             </div>
           </div>
         </div>
-        <div className="glass-box py-6 px-6 md:py-2 md:px-6 lg:py-6 lg:px-8 xl:py-5 xl:px-7 flex flex-col md:flex-row gap-5 items-center justify-start">
+        <div className="glass-box py-6 px-6 md:py-2 md:px-6 lg:py-6 lg:px-8 xl:py-5 xl:px-5 flex flex-col md:flex-row gap-5 items-center justify-start">
           <div className="flex xl:flex-[1] items-center justify-center">
             <img
               src={answer}

@@ -30,7 +30,7 @@ export default function About() {
   return (
     <div
       data-aos="fade-up"
-      className="flex flex-col items-center justify-center px-[60px] md:px-[100px] xl:px-[200px] gap-10"
+      className="flex flex-col items-center justify-center px-[60px] md:px-[100px] xl:px-[250px] gap-10"
     >
       <h2 className="font-inter text-white font-semibold text-2xl align-center text-center">
         O nás

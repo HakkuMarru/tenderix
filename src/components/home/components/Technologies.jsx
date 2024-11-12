@@ -4,7 +4,7 @@ export default function Technologies() {
   return (
     <div
       data-aos="fade-up"
-      className="h-full flex flex-col gap-10 justify-center items-center px-[60px] md:px-[100px] xl:px-[200px]"
+      className="h-full flex flex-col gap-10 justify-center items-center px-[60px] md:px-[100px] xl:px-[250px]"
     >
       <h2 className="font-inter text-white font-semibold text-2xl align-center text-center">
         Moderní technologie

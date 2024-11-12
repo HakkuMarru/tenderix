@@ -4,7 +4,7 @@ export default function Resources() {
   return (
     <div
       data-aos="fade-up"
-      className="flex flex-col justify-center items-center gap-10 h-full px-[60px] md:px-[100px] xl:px-[200px]"
+      className="flex flex-col justify-center items-center gap-10 h-full px-[60px] md:px-[100px] xl:px-[250px]"
     >
       <h2 className=" text-white font-semibold text-2xl text-center lg:text-left">
         Rozsáhlé odborné zdroje z oblasti veřejných zakázek
