@@ -12,14 +12,14 @@ export default function Steps() {
     >
       <div className="grid grid-rows-4 gap-5">
         <div className="glass-box py-6 px-6 md:py-2 md:px-6 lg:py-6 lg:px-8 xl:py-5 xl:px-7 flex flex-col md:flex-row gap-5 items-center justify-start">
-          <div className="flex items-center justify-center xl:flex-auto">
+          <div className="flex xl:flex-[1] items-center justify-center">
             <img
               src={registration}
               alt=""
               className="w-[120px] h-[120px] md:object-contain xl:w-[90px] xl:h-[90px]"
             />
           </div>
-          <div className="flex flex-col justify-center gap-2">
+          <div className="flex xl:flex-[6] flex-col justify-center gap-2">
             <h3 className="text-[#C6BFFF] text-center md:text-left text-xl md:text-xl lg:text-xl xl:text-xl font-semibold">
               Registrujte se!
             </h3>
@@ -30,14 +30,14 @@ export default function Steps() {
           </div>
         </div>
         <div className="glass-box py-6 px-6 md:py-2 md:px-6 lg:py-6 lg:px-8 xl:py-5 xl:px-7 flex flex-col md:flex-row gap-5 items-center justify-start">
-          <div className="flex items-center justify-center xl:flex-auto">
+          <div className="flex xl:flex-[1] items-center justify-center">
             <img
               src={activation}
               alt=""
               className="w-[120px] h-[120px] md:object-contain xl:w-[90px] xl:h-[90px]"
             />
           </div>
-          <div className="flex flex-col justify-center gap-2">
+          <div className="flex xl:flex-[6] flex-col justify-center gap-2">
             <h3 className="text-[#C6BFFF] text-center md:text-left text-xl md:text-xl lg:text-xl xl:text-xl font-semibold">
               Aktivujte si účet!
             </h3>
@@ -48,14 +48,14 @@ export default function Steps() {
           </div>
         </div>
         <div className="glass-box py-6 px-6 md:py-2 md:px-6 lg:py-6 lg:px-8 xl:py-5 xl:px-7 flex flex-col md:flex-row gap-5 items-center justify-start">
-          <div className="flex items-center justify-center xl:flex-auto">
+          <div className="flex xl:flex-[1] items-center justify-center">
             <img
               src={question}
               alt=""
               className="w-[120px] h-[120px] md:object-contain xl:w-[90px] xl:h-[90px]"
             />
           </div>
-          <div className="flex flex-col justify-center gap-2">
+          <div className="flex xl:flex-[6] flex-col justify-center gap-2">
             <h3 className="text-[#C6BFFF] text-center md:text-left text-xl md:text-xl lg:text-xl xl:text-xl font-semibold">
               Zeptej se!
             </h3>
@@ -66,14 +66,14 @@ export default function Steps() {
           </div>
         </div>
         <div className="glass-box py-6 px-6 md:py-2 md:px-6 lg:py-6 lg:px-8 xl:py-5 xl:px-7 flex flex-col md:flex-row gap-5 items-center justify-start">
-          <div className="flex items-center justify-center xl:flex-auto">
+          <div className="flex xl:flex-[1] items-center justify-center">
             <img
               src={answer}
               alt=""
               className="w-[120px] h-[120px] md:object-contain xl:w-[90px] xl:h-[90px]"
             />
           </div>
-          <div className="flex flex-col justify-center gap-2">
+          <div className="flex xl:flex-[6] flex-col justify-center gap-2">
             <h3 className="text-[#C6BFFF] text-center md:text-left text-xl md:text-xl lg:text-xl xl:text-xl font-semibold">
               Získejte zdroje a odpověď!
             </h3>
