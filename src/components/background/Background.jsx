@@ -32,7 +32,7 @@ export default function Background() {
   }, []);
 
   return (
-    <div className="gradient-holder -z-10">
+    <div className="top-0 absolute gradient-holder -z-10">
       <div className="gradient-bg">
         <svg xmlns="http://www.w3.org/2000/svg">
           <defs>

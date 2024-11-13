@@ -380,7 +380,7 @@
 }
 
 .fade-in {
-  animation: fadeIn 0.5s ease-in forwards;
+  animation: fadeIn .75s ease-out forwards;
 }
 
 @media (max-width: 430px) {

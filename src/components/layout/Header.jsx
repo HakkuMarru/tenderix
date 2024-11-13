@@ -16,7 +16,7 @@ export default function Header() {
   const isActive = (path) => location.pathname === path;
 
   return (
-    <nav className="fixed glass-box-nav bg-black h-[90px] lg:h-[120px] xl:h-[90px] lg:px-[40px] p-[20px] flex justify-between xl:grid xl:grid-cols-3">
+    <nav className="fixed glass-box-nav bg-black top-0 h-[90px] lg:h-[120px] xl:h-[90px] lg:px-[40px] p-[20px] flex justify-between xl:grid xl:grid-cols-3">
       {/* Logo */}
       <div className="flex gap-2 justify-start items-center z-50">
         <Link to="/">
@@ -57,9 +57,16 @@ export default function Header() {
         </Link>
 
         {/* Other Links (not yet implemented) */}
-        <div className="text-white text-lg cursor-pointer hover:bg-white hover:text-black px-3 py-1 rounded-lg transition-all duration-300">
+        <Link
+          to="/news"
+          className={`text-white text-lg px-3 py-1 rounded-lg cursor-pointer ${
+            isActive("/news")
+              ? "bg-[rgb(112,64,126)]"
+              : "hover:bg-white hover:text-black"
+          }`}
+        >
           Aktuálně
-        </div>
+        </Link>
         <div className="text-white text-lg cursor-pointer hover:bg-white hover:text-black px-3 py-1 rounded-lg transition-all duration-300">
           Kontakt
         </div>
@@ -111,9 +118,13 @@ export default function Header() {
           >
             Ceník
           </Link>
-          <div className="text-white font-poppins text-2xl font-semibold">
+          <Link
+            to="/news"
+            onClick={toggleMenu}
+            className="text-white font-poppins text-2xl font-semibold"
+          >
             Aktuálně
-          </div>
+          </Link>
           <div className="text-white font-poppins text-2xl font-semibold">
             Kontakt
           </div>
