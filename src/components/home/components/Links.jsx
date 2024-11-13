@@ -11,13 +11,27 @@ export default function Links() {
       <h2 className="font-inter text-white font-semibold text-2xl align-center text-center">
         Užitečné odkazy
       </h2>
-      <div className="w-full justify-center xl:justify-between flex flex-wrap gap-10 xl:gap-20">
-          <img src={rectangle} alt="" className="rounded-md h-[150px] w-[150px] xl:h-[220px] xl:w-[220px]" />
-          <img src={rectangle} alt="" className="rounded-md h-[150px] w-[150px] xl:h-[220px] xl:w-[220px]" />
-          <img src={rectangle} alt="" className="rounded-md h-[150px] w-[150px] xl:h-[220px] xl:w-[220px]" />
-          <img src={rectangle} alt="" className="rounded-md h-[150px] w-[150px] xl:h-[220px] xl:w-[220px]" />
-          <img src={rectangle} alt="" className="rounded-md h-[150px] w-[150px] xl:h-[220px] xl:w-[220px]" />
-          <img src={rectangle} alt="" className="rounded-md h-[150px] w-[150px] xl:h-[220px] xl:w-[220px]" />
+      <div className="w-full justify-center flex flex-wrap gap-20 lg:hidden">
+          <img src={rectangle} alt="" className="rounded-md h-[150px] w-[150px] xl:h-[200px] xl:w-[200px]" />
+          <img src={rectangle} alt="" className="rounded-md h-[150px] w-[150px] xl:h-[200px] xl:w-[200px]" />
+          <img src={rectangle} alt="" className="rounded-md h-[150px] w-[150px] xl:h-[200px] xl:w-[200px]" />
+          <img src={rectangle} alt="" className="rounded-md h-[150px] w-[150px] xl:h-[200px] xl:w-[200px]" />
+          <img src={rectangle} alt="" className="rounded-md h-[150px] w-[150px] xl:h-[200px] xl:w-[200px]" />
+          <img src={rectangle} alt="" className="rounded-md h-[150px] w-[150px] xl:h-[200px] xl:w-[200px]" />
+      </div>
+      <div className="hidden w-full flex-col justify-center items-center lg:flex gap-20">
+          <div className="flex w-full justify-around">
+
+          <img src={rectangle} alt="" className="rounded-md h-[150px] w-[150px] xl:h-[200px] xl:w-[200px]" />
+          <img src={rectangle} alt="" className="rounded-md h-[150px] w-[150px] xl:h-[200px] xl:w-[200px]" />
+          <img src={rectangle} alt="" className="rounded-md h-[150px] w-[150px] xl:h-[200px] xl:w-[200px]" />
+          </div>
+          <div className="flex w-full justify-around">
+
+          <img src={rectangle} alt="" className="rounded-md h-[150px] w-[150px] xl:h-[200px] xl:w-[200px]" />
+          <img src={rectangle} alt="" className="rounded-md h-[150px] w-[150px] xl:h-[200px] xl:w-[200px]" />
+          <img src={rectangle} alt="" className="rounded-md h-[150px] w-[150px] xl:h-[200px] xl:w-[200px]" />
+          </div>
       </div>
     </div>
   );

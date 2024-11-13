@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link, useLocation  } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import logo from "../../assets/logo/logo.png";
 import menu from "../../assets/menu.png";
 import close from "../../assets/close.png";
@@ -48,7 +48,9 @@ export default function Header() {
         <Link
           to="/price"
           className={`text-white text-lg px-3 py-1 rounded-lg cursor-pointer ${
-            isActive("/price") ? "bg-[rgb(112,64,126)]" : "hover:bg-white hover:text-black"
+            isActive("/price")
+              ? "bg-[rgb(112,64,126)]"
+              : "hover:bg-white hover:text-black"
           }`}
         >
           Ceník
@@ -77,7 +79,11 @@ export default function Header() {
         className="xl:hidden absolute right-[20px] -bottom-[75px] rounded-full glass-box-menu-icon p-4 z-50 cursor-pointer"
         onClick={toggleMenu}
       >
-        <img src={isOpen ? close : menu} alt="Menu" className="w-[25px] h-[25px] invert" />
+        <img
+          src={isOpen ? close : menu}
+          alt="Menu"
+          className="w-[25px] h-[25px] invert"
+        />
       </div>
 
       {/* Mobile Menu */}
@@ -87,10 +93,22 @@ export default function Header() {
         }`}
       >
         <div className="flex items-center justify-center flex-col gap-8">
-          <Link to="/home" className="text-white font-poppins text-2xl font-semibold" onClick={toggleMenu}>
+          <div className="text-white px-3 py-1 rounded-md bg-[#736ca7] font-poppins text-2xl font-semibold">
+            Přihlásit
+          </div>
+          <div></div>
+          <Link
+            to="/home"
+            className="text-white font-poppins text-2xl font-semibold"
+            onClick={toggleMenu}
+          >
             O nás
           </Link>
-          <Link to="/price" className="text-white font-poppins text-2xl font-semibold" onClick={toggleMenu}>
+          <Link
+            to="/price"
+            className="text-white font-poppins text-2xl font-semibold"
+            onClick={toggleMenu}
+          >
             Ceník
           </Link>
           <div className="text-white font-poppins text-2xl font-semibold">

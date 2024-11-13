@@ -382,3 +382,18 @@
 .fade-in {
   animation: fadeIn 0.5s ease-in forwards;
 }
+
+@media (max-width: 430px) {
+  .extended-version {
+    min-width: 280px;
+  }
+}
+
+.price-clamp-width {
+  width: clamp(40rem, 58rem, 80rem);
+}
+
+
+.price-clamp-gap {
+  /* gap: clamp(20px, 40px, 50px); */
+}

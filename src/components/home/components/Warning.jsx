@@ -6,7 +6,7 @@ export default function Links() {
       <h2 className="font-inter text-white font-semibold text-2xl align-center text-center">
         Upozornění
       </h2>
-      <div className="glass-box p-5 text-white text-md">
+      <div className="glass-box p-5 text-white text-md text-justify">
         Jakékoli výstupy z modelu Tenderix nelze chápat jako poskytování
         odborných informací nebo rad ve smyslu ust. § 2950 zákona č. 89/2012
         Sb., občanského zákoníku, ve znění pozdějších předpisů, a rovněž ani

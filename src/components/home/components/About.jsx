@@ -45,7 +45,7 @@ export default function About() {
           <img
             src={dominikZlebek}
             alt="Dominik Zlebek"
-            className="rounded-md w-[300px] lg:w-full object-cover md:self-center"
+            className="rounded-md w-[300px] lg:w-full object-cover self-center"
           />
 
           {/* Accordion Section */}
@@ -122,7 +122,7 @@ export default function About() {
           <img
             src={janMusil}
             alt="Jan Musil"
-            className="rounded-md w-[300px] lg:w-full object-cover md:self-center"
+            className="rounded-md w-[300px] lg:w-full object-cover self-center"
           />
 
           {/* Accordion Section */}

@@ -66,9 +66,9 @@ export default function Price() {
   useEffect(() => {
     setAnimate(true); // Trigger animation on initial load
   }, []);
-
   return (
-    <div className="h-full xl:h-[95vh] flex gap-10 xl:gap-5 items-center justify-center flex-col px-[75px] xl:px-[275px] pt-[150px] lg:pt-[175px] xl:pt-[100px]">
+      //   xl:px-[275px]
+    <div className="xl:w-[58rem] self-center h-full flex gap-10 xl:gap-5 items-center justify-start flex-col px-[75px] xl:px-0 pt-[150px] lg:pt-[175px] xl:mt-[10rem] xl:pt-0">
       <h2 className="text-white text-2xl font-semibold text-center">
         Ceník rozšířené verze aplikace
       </h2>
@@ -95,7 +95,7 @@ export default function Price() {
 
       {/* Conditional Rendering Based on Selected Period */}
       {period === "monthly" ? (
-        <div className={`flex flex-col lg:flex-row gap-5 items-center justify-between w-full ${animate ? "fade-in" : ""}`}>
+        <div className={`flex flex-col gap-5 lg:flex-row items-center justify-between w-full lg:w-[58rem] ${animate ? "fade-in" : ""}`}>
           {monthlyPlans.map((plan) => (
           <div key={plan.id} className="glass-box flex flex-col items-start justify-center gap-5 p-8 w-[280px]">
             <div className="text-[#C6BFFF] text-xl text-center font-semibold w-full">{plan.name}</div>
@@ -119,7 +119,7 @@ export default function Price() {
 
         </div>
       ) : (
-        <div className={`flex flex-col lg:flex-row gap-5 items-center justify-between w-full ${animate ? "fade-in" : ""}`}>
+        <div className={`flex flex-col lg:flex-row gap-0 items-center justify-between w-full ${animate ? "fade-in" : ""}`}>
           {annualPlans.map((plan) => (
           <div key={plan.id} className="glass-box flex flex-col items-start justify-center gap-5 p-8 w-[280px]">
             <div className="text-[#C6BFFF] text-xl text-center font-semibold w-full">{plan.name}</div>
