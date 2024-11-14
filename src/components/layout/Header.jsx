@@ -67,9 +67,16 @@ export default function Header() {
         >
           Aktuálně
         </Link>
-        <div className="text-white text-lg cursor-pointer hover:bg-white hover:text-black px-3 py-1 rounded-lg transition-all duration-300">
+        <Link
+          to="/contact"
+          className={`text-white text-lg px-3 py-1 rounded-lg cursor-pointer ${
+            isActive("/contact")
+              ? "bg-[rgb(112,64,126)]"
+              : "hover:bg-white hover:text-black"
+          }`}
+        >
           Kontakt
-        </div>
+        </Link>
       </div>
 
       <div className="flex gap-4 justify-end items-center z-50">
@@ -125,9 +132,13 @@ export default function Header() {
           >
             Aktuálně
           </Link>
-          <div className="text-white font-poppins text-2xl font-semibold">
+          <Link
+            to="/news"
+            onClick={toggleMenu}
+            className="text-white font-poppins text-2xl font-semibold"
+          >
             Kontakt
-          </div>
+          </Link>
         </div>
       </div>
     </nav>

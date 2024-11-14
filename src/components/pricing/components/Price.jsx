@@ -97,7 +97,7 @@ export default function Price() {
       {period === "monthly" ? (
         <div className={`flex flex-col gap-5 lg:flex-row items-center justify-between w-full lg:w-[58rem] ${animate ? "fade-in" : ""}`}>
           {monthlyPlans.map((plan) => (
-          <div key={plan.id} className="glass-box flex flex-col items-start justify-center gap-5 p-8 w-[280px]">
+          <div key={plan.id} className="w-full glass-box flex flex-col items-start justify-center gap-5 p-8 lg:w-[280px]">
             <div className="text-[#C6BFFF] text-xl text-center font-semibold w-full">{plan.name}</div>
             <div className="flex items-end justify-center gap-2 w-full">
               <div className="text-white text-4xl font-semibold">{plan.price}</div>
@@ -121,7 +121,7 @@ export default function Price() {
       ) : (
         <div className={`flex flex-col gap-5 lg:flex-row items-center justify-between w-full lg:w-[58rem] ${animate ? "fade-in" : ""}`}>
           {annualPlans.map((plan) => (
-          <div key={plan.id} className="glass-box flex flex-col items-start justify-center gap-5 p-8 w-[280px]">
+          <div key={plan.id} className="w-full glass-box flex flex-col items-start justify-center gap-5 p-8 lg:w-[280px]">
             <div className="text-[#C6BFFF] text-xl text-center font-semibold w-full">{plan.name}</div>
             <div className="flex items-end justify-center gap-2 w-full">
               <div className="text-white text-4xl font-semibold">{plan.price}</div>

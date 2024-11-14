@@ -4,11 +4,9 @@ import "aos/dist/aos.css";
 
 import Background from "../background/Background";
 import NewsSection from "./components/NewsSection";
-// import Article from "./components/Article";
 
 export default function News() {
-  useEffect(() => {
-  }, []); // Empty dependency array ensures this runs only once on mount
+  useEffect(() => {}, []); // Empty dependency array ensures this runs only once on mount
 
   useEffect(() => {
     AOS.init({
@@ -21,8 +19,7 @@ export default function News() {
   return (
     <div className="relative bg-[rgba(0,0,0,0.4)] pb-10 md:pb-20 lg:pb-20">
       <div className="flex items-center justify-center">
-
-      <NewsSection />
+        <NewsSection />
       </div>
       <Background />
     </div>

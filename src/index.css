@@ -265,6 +265,21 @@
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
+.glass-box-news {
+  background: rgba(40, 40, 40, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(129, 89, 208, 0.37);
+
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+
+.glass-box-news:hover {
+  box-shadow: 0 8px 32px 0 rgba(129, 89, 208, 1);
+}
+
 .glass-box-nav {
   /* position: fixed; */
   z-index: 20;
@@ -385,7 +400,7 @@
 
 @media (max-width: 430px) {
   .extended-version {
-    min-width: 280px;
+    min-width: 250px;
   }
 }
 
