@@ -133,7 +133,7 @@ export default function Header() {
             Aktuálně
           </Link>
           <Link
-            to="/news"
+            to="/contact"
             onClick={toggleMenu}
             className="text-white font-poppins text-2xl font-semibold"
           >
